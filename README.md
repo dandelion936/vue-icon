@@ -15,7 +15,7 @@ npm仓库地址[http://94.191.21.122:4873](http://94.191.21.122:4873)
 npm换源推荐[nrm](https://github.com/Pana/nrm)
 
 ```bash
-$ npm install @bzgroup/vue-icon
+$ npm install @bzvue/icon
 ```
 
 ### 手动安装

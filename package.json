@@ -1,6 +1,6 @@
 {
-    "name": "vue-icon",
-    "version": "1.0.0",
+    "name": "@bzvue/icon",
+    "version": "1.0.1",
     "title": "vue-icon",
     "description": "icon component with Vue.js",
     "keywords": [
@@ -20,6 +20,10 @@
         "dist:prod": "webpack --config build/webpack.dist.prod.config.js",
         "dist": "npm run dist:style && npm run dist:dev && npm run dist:prod && npm run dist:locale",
         "lint": "eslint --fix --ext .js,.vue src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dandelion936/vue-icon"
     },
     "author": "zhaozhong",
     "license": "MIT",
