@@ -4,13 +4,13 @@
 
 vue-icon 是基于 [Vue.js](https://vuejs.org/) 的 图标组件，默认使用 [iconfont](https://www.iconfont.cn/)。
 
-查看[此处](https://justineo.github.io/v-icon/examples/)的 demo 一睹为快。
+[git registry](https://github.com/dandelion936/vue-icon)
 
 ## 安装
 
 ### npm（推荐方式）
 
-npm仓库地址[http://94.191.21.122:4873](http://94.191.21.122:4873)
+npmre gistry [http://94.191.21.122:4873](http://94.191.21.122:4873)
 
 npm换源推荐[nrm](https://github.com/Pana/nrm)
 
@@ -25,8 +25,8 @@ $ npm install @bzvue/icon
 
 ## 使用方法
 ```js
-import VIcon from '@bzgroup/vue-icon'; //npm
-import VIcon from '/dist/vicon.min.js'; //手动下载
+import VIcon from '@bzvue/icon'; //npm
+import VIcon from 'dist/vicon.min.js'; //手动下载
 
 Vue.use(VIcon);
 Vue.prototype.ICONCLASS = 'iconfont'; //修改图标库的类名 如果不设置默认iconfont
@@ -36,7 +36,7 @@ Vue.prototype.ICONCLASS = 'iconfont'; //修改图标库的类名 如果不设置
 <!-- font class用法 -->
 <v-icon classes="icon-bug"/>
 <!-- Unicode用法 -->
-<v-icon classes="&#xe610;"/>
+<v-icon Unicode="&#xe610;"/>
 
 <!-- 添加选项 -->
 <v-icon custom="icon-bug hello" size="16" color="red"></v-icon>
