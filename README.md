@@ -34,7 +34,7 @@ Vue.prototype.ICONCLASS = 'iconfont'; //修改图标库的类名 如果不设置
 
 ```html
 <!-- font class用法 -->
-<v-icon classes="icon-bug"/>
+<v-icon custom="icon-bug"/>
 <!-- Unicode用法 -->
 <v-icon Unicode="&#xe610;"/>
 

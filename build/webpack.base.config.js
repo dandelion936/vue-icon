@@ -75,7 +75,7 @@ module.exports = {
                         },
                     },
                     {
-                        loader: '\'autoprefixer-loader\'',
+                        loader: 'postcss-loader',
                     },
                 ]
             },
